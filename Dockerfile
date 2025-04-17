@@ -55,7 +55,11 @@ ENV ALLOW_RESTARTS=0 \
   SYSTEM=0 \
   TASKS=0 \
   VERSION=1 \
-  VOLUMES=0
+  VOLUMES=0 \
+  
+  # Custom
+  CONTAINER_LIST=0 \
+  CONTAINER_INSPECT=0
 
 # add local files
 COPY root/ /
